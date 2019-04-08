@@ -1,5 +1,5 @@
 {
-  "name": "electron-mksnapshot",
+  "name": "@axosoft/electron-mksnapshot",
   "version": "4.0.0",
   "description": "Electron version of the mksnapshot binary",
   "repository": "https://github.com/electron/mksnapshot",
