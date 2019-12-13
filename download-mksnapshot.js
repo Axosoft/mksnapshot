@@ -29,9 +29,7 @@ function processDownload (err, zipPath) {
 
 download(versionToDownload, function (err, zipPath) {
   if (err) {
-    var versionSegments = versionToDownload.split('.')
-    var baseVersion = versionSegments[0] + '.' + versionSegments[1] + '.0'
-    download(baseVersion, processDownload)
+    download(versionToDownload, processDownload)
   } else {
     processDownload(err, zipPath)
   }
