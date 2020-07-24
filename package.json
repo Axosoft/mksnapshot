@@ -1,6 +1,6 @@
 {
-  "name": "electron-mksnapshot",
-  "version": "7.0.0",
+  "name": "@axosoft/electron-mksnapshot",
+  "version": "10.1.1",
   "description": "Electron version of the mksnapshot binary",
   "repository": "https://github.com/electron/mksnapshot",
   "bin": {
